@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://vifast.org">
-    <img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifast-banner.svg" alt="ViFast — phần mềm Việt, nhỏ và nhanh" width="100%">
+    <img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifast-banner.svg?v=2" alt="ViFast — phần mềm Việt, nhỏ và nhanh" width="100%">
   </a>
 </p>
 
@@ -40,7 +40,7 @@ không phụ thuộc server, không gửi dữ liệu người dùng ra ngoài.
 <tr>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifastkey-icon-512.png" width="88" alt="ViFastKey"><br><br>
+<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifastkey-icon-512.png?v=2" width="88" alt="ViFastKey"><br><br>
 
 ### [ViFastKey](https://github.com/vifast-oss/ViFastKey)
 
@@ -55,7 +55,7 @@ Lõi Rust rất nhỏ, chạy hoàn toàn local, có C ABI, WASM, API Python và
 </td>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifasttts-icon-512.png" width="88" alt="ViFastTts"><br><br>
+<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifasttts-icon-512.png?v=2" width="88" alt="ViFastTts"><br><br>
 
 ### [ViFastTts](https://github.com/vifast-oss/ViFastTts)
 
@@ -70,7 +70,7 @@ ONNX acoustic + vocoder, chạy local ngay trong trình duyệt (WASM + ONNX Run
 </td>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifastos-icon-512.png" width="88" alt="ViFastOs"><br><br>
+<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifastos-icon-512.png?v=2" width="88" alt="ViFastOs"><br><br>
 
 ### [ViFastOs](https://github.com/vifast-oss/ViFastOs)
 
