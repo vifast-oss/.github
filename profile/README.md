@@ -92,8 +92,10 @@ Capability-based, kernel `no_std` + `#![forbid(unsafe_code)]`, IPC + notificatio
 
 - **Nhỏ** — ViFastKey giữ lõi Rust gọn; ViFastTts chạy model ONNX ngay trên CPU; ViFastOs giữ kernel
   `no_std` với hạn mức tĩnh rõ ràng thay vì phình to.
-- **Nhanh** — gõ không round-trip server, giọng đọc chạy local, kernel chỉ một lock toàn cục và số
-  syscall đếm được. Nhanh vì ít tầng, không phải vì tối ưu vội.
+- **Nhanh** — lõi viết bằng **Rust, biên dịch thẳng ra mã máy native**: không máy ảo, không garbage
+  collector. ViFastKey và ViFastOs chạy mã native trực tiếp; ViFastTts dùng nhân ONNX Runtime native
+  cho model, phần điều phối cũng bằng Rust. Kèm theo là những thứ đo được: gõ không round-trip
+  server, giọng đọc chạy local, kernel chỉ một lock toàn cục và số syscall đếm được.
 - **Mở** — toàn bộ mã nguồn MIT, phát hành công khai trên GitHub Releases.
 
 ## Trạng thái
