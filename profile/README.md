@@ -70,7 +70,7 @@ ONNX acoustic + vocoder, chạy local ngay trong trình duyệt (WASM + ONNX Run
 </td>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifastos-icon-512.png?v=3" width="88" alt="ViFastOs"><br><br>
+<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vifastos-icon-512.png?v=4" width="88" alt="ViFastOs"><br><br>
 
 ### [ViFastOs](https://github.com/vifast-oss/ViFastOs)
 
