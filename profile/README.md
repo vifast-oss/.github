@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-2f6f4f?style=flat-square">
+  <img alt="License: MIT OR Apache-2.0" src="https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-2f6f4f?style=flat-square">
   <a href="https://github.com/vifast-oss/ViFastKey/releases"><img alt="ViFastKey release" src="https://img.shields.io/github/v/release/vifast-oss/ViFastKey?label=ViFastKey&style=flat-square"></a>
   <a href="https://github.com/vifast-oss/ViFastTts/releases"><img alt="ViFastTts release" src="https://img.shields.io/github/v/release/vifast-oss/ViFastTts?label=ViFastTts&style=flat-square"></a>
   <a href="https://github.com/vifast-oss/ViFastOs/releases"><img alt="ViFastOs release" src="https://img.shields.io/github/v/release/vifast-oss/ViFastOs?label=ViFastOs&include_prereleases&style=flat-square"></a>
@@ -96,7 +96,7 @@ Capability-based, kernel `no_std` + `#![forbid(unsafe_code)]`, IPC + notificatio
   collector. ViFastKey và ViFastOs chạy mã native trực tiếp; ViFastTts dùng nhân ONNX Runtime native
   cho model, phần điều phối cũng bằng Rust. Kèm theo là những thứ đo được: gõ không round-trip
   server, giọng đọc chạy local, kernel chỉ một lock toàn cục và số syscall đếm được.
-- **Mở** — toàn bộ mã nguồn MIT, phát hành công khai trên GitHub Releases.
+- **Mở** — toàn bộ mã nguồn MIT hoặc Apache-2.0, phát hành công khai trên GitHub Releases.
 
 ## Trạng thái
 
@@ -108,7 +108,8 @@ Capability-based, kernel `no_std` + `#![forbid(unsafe_code)]`, IPC + notificatio
 
 ## Giấy phép
 
-Mã nguồn: **MIT**. Logo, wordmark và tài nguyên thương hiệu **không** thuộc phạm vi MIT —
-xem `TRADEMARKS.md` trong từng repo.
+Mã nguồn: **MIT hoặc Apache-2.0** (giấy phép kép, người dùng chọn — xem `LICENSE-MIT` /
+`LICENSE-APACHE` trong từng repo). Logo, wordmark và tài nguyên thương hiệu **không** thuộc
+phạm vi hai giấy phép đó — xem `TRADEMARKS.md` trong từng repo.
 
 <p align="center"><sub>© 2026 ViFast · <a href="https://vifast.org">vifast.org</a></sub></p>
