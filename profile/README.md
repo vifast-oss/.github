@@ -8,7 +8,8 @@
   <a href="https://vifast.org"><b>vifast.org</b></a> &nbsp;·&nbsp;
   <a href="https://key.vifast.org">ViFastKey</a> &nbsp;·&nbsp;
   <a href="https://tts.vifast.org">ViFastTts</a> &nbsp;·&nbsp;
-  <a href="https://os.vifast.org">ViFastOs</a>
+  <a href="https://os.vifast.org">ViFastOs</a> &nbsp;·&nbsp;
+  <a href="https://github.com/vifast-oss/ViScript">ViScript</a>
 </p>
 
 <p align="center">
@@ -22,9 +23,9 @@
 
 ## ViFast là gì
 
-Ba dự án mã nguồn mở **của người Việt, cho tiếng Việt**: một bộ gõ, một giọng đọc, và một hệ điều hành
-microkernel viết từ đầu bằng Rust. Cả ba đều đi theo cùng một hướng: **nhỏ, nhanh, chạy local** —
-không phụ thuộc server, không gửi dữ liệu người dùng ra ngoài.
+Năm dự án mã nguồn mở **của người Việt, cho tiếng Việt**: một bộ gõ, một giọng đọc, một hệ điều hành
+microkernel viết từ đầu bằng Rust, một ngôn ngữ lập trình và shell của nó. Cả năm đều đi theo cùng
+một hướng: **nhỏ, nhanh, chạy local** — không phụ thuộc server, không gửi dữ liệu người dùng ra ngoài.
 
 | | Nghĩa |
 |---|---|
@@ -34,7 +35,7 @@ không phụ thuộc server, không gửi dữ liệu người dùng ra ngoài.
 
 ---
 
-## Ba dự án
+## Năm dự án
 
 <table>
 <tr>
@@ -84,6 +85,38 @@ Capability-based, kernel `no_std` + `#![forbid(unsafe_code)]`, IPC + notificatio
 
 </td>
 </tr>
+<tr>
+<td width="33%" valign="top" align="center">
+
+<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/viscript-icon-512.png?v=1" width="88" alt="ViScript"><br><br>
+
+### [ViScript](https://github.com/vifast-oss/ViScript)
+
+**Ngôn ngữ lập trình dễ học cho người Việt.**
+
+Cú pháp gọn như Python, kiểm tra kiểu như Rust; tên biến và thông báo lỗi đều bằng tiếng Việt. Không con trỏ, không `unsafe`, không kế thừa lớp.
+
+`Rust` `kiểu tĩnh` `.vis` `tiếng Việt`
+
+**[Mã nguồn →](https://github.com/vifast-oss/ViScript)**
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<img src="https://raw.githubusercontent.com/vifast-oss/.github/main/profile/assets/vishell-icon-512.png?v=1" width="88" alt="ViShell"><br><br>
+
+### ViShell
+
+**Shell của dòng ViScript.**
+
+Mỗi lệnh một task có heap riêng, prompt là một hàm trong tệp cấu hình, kịch bản là tệp `.vish`.
+
+`.vish` `task riêng` `prompt là hàm`
+
+*đang phát triển* · nằm trong repo ViScript
+
+</td>
+</tr>
 </table>
 
 ---
@@ -105,6 +138,8 @@ Capability-based, kernel `no_std` + `#![forbid(unsafe_code)]`, IPC + notificatio
 | ViFastKey | Dùng được hằng ngày (bộ gõ + CLI + web) |
 | ViFastTts | Demo nghiên cứu, chạy được on-device |
 | ViFastOs | Nghiên cứu/học thuật — boots + chạy test trên QEMU, **chưa** production |
+| ViScript | Chạy được: `vis run` chạy chương trình `.vis`, có kiểm kiểu + VM; đang mở rộng thư viện chuẩn |
+| ViShell | **Đang phát triển** — chế độ lệnh `.vish` đã chạy, chưa phải shell dùng hằng ngày |
 
 ## Giấy phép
 

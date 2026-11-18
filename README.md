@@ -7,3 +7,4 @@ thành trang chủ của org tại <https://github.com/vifast-oss>.
 - `profile/assets/` — banner + logo (SVG/PNG)
 
 Trang sản phẩm: <https://vifast.org> · <https://key.vifast.org> · <https://tts.vifast.org> · <https://os.vifast.org>
+· ViScript: <https://github.com/vifast-oss/ViScript>
